@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/cellArticle"
+              android:layout_marginBottom="10dp"
+            >
+
+    <TextView
+            android:id="@+id/codiArticle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CODI: AHF.234"
+            android:textSize="20dp"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            >
+    </TextView>
+    <TextView
+
+            android:id="@+id/DescripcioArticle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DESCRIPCIO: TEST"
+            android:textSize="20dp"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            >
+    </TextView>
+
+    <TextView
+            android:id="@+id/stockArticle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STOCK: 10 UNITATS"
+            android:textSize="20dp"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            >
+
+    </TextView>
+
+
+</LinearLayout>
